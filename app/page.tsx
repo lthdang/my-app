@@ -8,6 +8,11 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl font-bold tracking-[-.01em] text-center sm:text-left">
           Hello world
         </h1>
+        <div className="flex flex-col items-center sm:items-start gap-1">
+          <span className="text-lg">こんにちは世界 (Japanese)</span>
+          <span className="text-lg">Bonjour le monde (French)</span>
+          <span className="text-lg">សួស្តី​ពិភពលោក (Cambodian)</span>
+        </div>
         <Image
           className="dark:invert"
           src="/next.svg"
